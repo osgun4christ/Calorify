@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- onboarding page 1 -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/onboarding_"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/onboarding_">
+
+    <TextView
+        android:id="@+id/skip"
+        android:layout_width="26dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="329dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="Poppins"
+        android:gravity="center_horizontal|top"
+        android:text="@string/skip"
+        android:textAppearance="@style/skip"
+        app:lineHeight="19sp" />
+
+    <!-- Welcome to Calorify -->
+    <TextView
+        android:id="@+id/welcome_to_"
+        android:layout_width="216.6dp"
+        android:layout_height="27dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="393dp"
+        android:fontFamily="Poppins"
+        android:gravity="center_horizontal|top"
+        android:text="@string/welcome_to_"
+        android:textAppearance="@style/welcome_to_"
+        app:lineHeight="27sp" />
+
+    <TextView
+        android:id="@+id/reach_your_"
+        android:layout_width="304dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="428dp"
+        android:text="@string/reach_your_"
+        android:textAppearance="@style/reach_your_"
+        android:gravity="center_horizontal|top"
+        />
+</RelativeLayout>
+
+    <!-- Reach your weight goals faster with the all-in-one calorie checker and macro tracker. -->
+
+
+
+
+
+
