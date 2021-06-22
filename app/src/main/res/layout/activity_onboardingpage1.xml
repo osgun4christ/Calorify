@@ -3,24 +3,26 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/onboarding_"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/onboarding_">
+    android:background="@drawable/onboarding_"
+    tools:ignore="MissingDefaultResource">
 
 
     <Button
         android:id="@+id/button_cont"
         android:layout_width="335dp"
         android:layout_height="48dp"
-        android:text="@string/continu"
-        android:fontFamily="Poppins"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="20dp"
         android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="622dp"
-        android:textAppearance="@style/continu"
-        android:background="@drawable/button_cont" />
+        android:background="#08AF38"
+        android:fontFamily="Poppins"
+        android:text="@string/continu"
+        android:textAppearance="@style/continu" />
 
 
     <TextView
@@ -65,16 +67,16 @@
         android:gravity="center_horizontal|top"/>
 
     <ImageView
-        app:srcCompat="@drawable/undraw_healthy_habit_bh5w_1"
         android:id="@+id/undraw_heal"
         android:layout_width="259.51dp"
         android:layout_height="170dp"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="58dp"
         android:layout_alignParentTop="true"
+        android:layout_marginStart="58dp"
         android:layout_marginTop="191dp"
-        android:background="@drawable/undraw_heal"
-        android:contentDescription="@drawable/undraw_healthy_habit_bh5w_1" />
+        android:contentDescription="@string/undraw_heal"
+        app:srcCompat="@drawable/undraw_healthy_habit_bh5w_1" />
+
 
 </RelativeLayout>
 

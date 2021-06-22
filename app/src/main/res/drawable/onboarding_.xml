@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 
     <!-- drawable/onboarding_.xml -->
+
     <vector
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:width="375dp"
         android:height="812dp"
         android:viewportWidth="375"
         android:viewportHeight="812"
+        android:background="#E5E5E5"
         >
+
 
         <group>
 
